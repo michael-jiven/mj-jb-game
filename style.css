@@ -13,6 +13,12 @@
 body{
 font-family:'Segoe UI', -apple-system, system-ui, Roboto;
 }
+.beranda {
+    background-image: url("img/logo-mj.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
 .beranda h1 {
     text-align:center;
     color:whitesmoke;
