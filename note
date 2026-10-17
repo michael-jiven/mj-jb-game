@@ -1,0 +1,24 @@
+FORMAT ML
+<ul>
+    <li><span class="label">STATUS : </span></li>
+    <li><span class="label">HARGA : </span></li>
+    <li><span class="label">LOG : </span></li>
+    <li><span class="label">SAFE/FRESH : </span></li>
+    <li><span class="label">PLAT/ALLKOS : </span></li>
+    <li><span class="label">TOTAL SKIN : </span></li>
+    <li><span class="label">EPIC : </span></li>
+    <li><span class="label">EMBLEM : </span></li>
+    <li><span class="label">HERO : </span></li>
+    <li><span class="label">DESKRIPSI : </span></li>
+</ul>
+
+FORMAT FF
+<ul class="spek">
+    <li><span class="label">STATUS : </span>Ready</li>
+    <li><span class="label">LOG : </span>Bind</li>
+    <li><span class="label">SAFE/FRESH : </span>Safe 5 Buln</li>
+    <li><span class="label">BIND/REBIND : </span>Bind</li>
+    <li><span class="label">TOTAL VAULT : </span>213</li>
+    <li><span class="label">SKIN SG2 : </span>Reaper + Parrot</li>
+    <li><span class="label">DESKRIPSI : </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi, ratione iste ullam dolor a officiis eveniet debitis laborum excepturi nihil magni? Laudantium provident reprehenderit expedita. Ducimus adipisci recusandae unde?</li>
+</ul>
