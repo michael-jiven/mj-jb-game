@@ -12,13 +12,9 @@
 }
 body{
     font-family:'Segoe UI', -apple-system, system-ui, Roboto;
-    background-image: url("img/feedback-buyer.jpg");
-    background-repeat:repeat-y;
-    background-position:center;
-    background-size:cover;
 }
 .beranda {
-    background-image: url("img/feedback-buyer.jpg");
+    background-image: url("img/feedback-buyer.jpeg");
     background-repeat:repeat-y;
     background-position:center;
     background-size:cover;
