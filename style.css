@@ -150,3 +150,9 @@ footer {
 .cast {
     font-size:10px;
 }
+@media (max-width: 600px) {
+    .slogan { font-size: 20px ;}
+    nav a { font-size: 16px ;}
+    nav strong { font-size: 18px ;}
+    .beranda p { font-size: 14px ;}
+}
