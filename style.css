@@ -11,11 +11,15 @@
     border-radius:20px;
 }
 body{
-font-family:'Segoe UI', -apple-system, system-ui, Roboto;
+    font-family:'Segoe UI', -apple-system, system-ui, Roboto;
+    background-image: url("img/feedback-buyer.jpg");
+    background-repeat:repeat-y;
+    background-position:center;
+    background-size:cover;
 }
 .beranda {
-    background-image: url("img/logo-mj.jpg");
-    background-repeat:no-repeat;
+    background-image: url("img/feedback-buyer.jpg");
+    background-repeat:repeat-y;
     background-position:center;
     background-size:cover;
 }
