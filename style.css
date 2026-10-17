@@ -144,3 +144,9 @@ article {
     padding:20px;
     scroll-snap-type:x mandatory;
 }
+footer {
+    font-size:10px
+}
+.cast {
+    font-size:10px;
+}
