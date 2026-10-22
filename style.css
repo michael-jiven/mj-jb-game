@@ -1,173 +1,57 @@
 * {
-    box-sizing: border-box;
+    border-sizing: border-box;
+    font-family: 'Segoe UI', -apple-system, Arial, sans-serif;
 }
-.banner {
-    display:block;
-    width:100%;
-    max-width:600px;
-    margin-left:auto;
-    margin-right:auto;
-    height:auto;
-    border-radius:20px;
-}
-body{
-    font-family:'Segoe UI', -apple-system, system-ui, Roboto;
+
+body {
+    color:white;
+    font-sizing:20px;
+    font-weight:bold;
+    text-decoration:none;
 }
 .beranda {
-    background-image: url("img/feedback-buyer.jpeg");
-    background-repeat:repeat-y;
+    background-image:url("img/background-logo-mj-2.jpg");
+    background-repeat:no-repeat;
     background-position:center;
-    background-size:cover;
-}
-.beranda h1 {
+    background-size:auto;
+    background-color:black;
     text-align:center;
-    color:whitesmoke;
 }
-.beranda p {
-    text-align:center;
-    color:whitesmoke;
-    font-weight:bold;
-    padding:0px;
+.banner{
+    display:block;
+    border-radius:20px;
+    width:100%;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
 }
-.beranda ul {
-    padding:0px;
-    text-align:center;
+.beranda li {
+    width:100%;
+    max-width:320px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
     list-style:none;
-    color:whitesmoke;
-    text-decoration: none;
-}
-body {
-    background-color: black;
+    text-decoration:none;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding:10px;
+    text-align:center;
+    border-radius: 30px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.5);
 }
 nav strong {
     display:block;
-    font-size:20px;
 }
-nav a {
-    display:inline-block;
-    color:white;
-    font-weight:bold;
-    text-decoration:none;
-    text-align: center;
-    font-size:20px;
-    font-family: 'Segoe UI', -apple-system, system-ui, Roboto;
-    padding:8px;
-    margin:10px;
-    margin-bottom:10px;
-    border:2px solid whitesmoke;
-    border-radius:10px;
-}
-nav a:hover {
-    color:red;
-}
-.logo-ml {
-    width:100%;
-    max-width:100px;
-    height:auto;
-    border-radius:20px;
-}
+.logo-ml,
 .logo-ff {
     width:100%;
     max-width:100px;
     height:auto;
     border-radius:20px;
-}
-.slogan {
-    font-size:25px;
-}
-.spek {
-    color:white;
-    font-family: 'Segoe UI', -apple-system, system-ui, Roboto;
-    flex-shrink:0;
-    width:300px;
-    scroll-snap-align:start;
-    margin-left:2px;
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-right:0px;
-    list-style:none;
-    padding:10px;
-    border: 2px solid whitesmoke;
-    border-radius:5px;
-}
-.spek a {
-    text-decoration:none;
-    color:white;
-    font-weight:bold;
-}
-.spek p {
-    font-weight:bold;
-    font-size:25px;
-    margin:0px;
-    padding:0px;
-}
-.spek article {
-    margin:10px;
-    scroll-snap-align:start;
-}
-h1 {
-    color:white;
-    margin-bottom:0px;
-    text-align:center;
-}
-h2 {
-    color:white;
-    margin:0px;
-}
-h4 {
-    color:white;
-    margin:0px;
-    text-align:center;
-}
-p {
-    color:white;
-    font-size:25px;
-    font-weight:bold;
-    margin:0px;
-}
-.label {
-    font-weight:bold;
-    list-style:none;
-    font-size:18px;
-}
-.foto-ml {
-    width:100%;
-    height:auto;
-    max-width:300px;
-    border-radius:10px;
-}
-.link-wa {
-    color:white;
-    font-size:30px;
-    font-weight:bold;
-    text-decoration:none;
-}
-.link-wa:hover {
-    color:red;
-}
-article {
-    padding:10px;
-}
-.katalog {
-    display:flex;
-    gap:20px;
-    overflow-x:auto;
-    padding:20px;
-    scroll-snap-type:x mandatory;
-}
-footer {
-    font-size:10px
-}
-.cast {
-    font-size:10px;
-}
-@media (max-width: 600px) {
-    .slogan { font-size: 20px ;}
-    nav a { font-size: 16px ;}
-    nav strong { font-size: 18px ;}
-    .beranda p { font-size: 14px ;}
-    .logo-ml,
-    .logo-ff {
-        max-width:70px;
-    }
+    margin-top:10px;
+    margin-left:10px;
+    margin-top:10px;
 }
