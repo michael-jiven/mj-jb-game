@@ -132,3 +132,15 @@ nav strong {
     from { backrgound-position: 50% 0%;}
     to { background-position: 50% 100%;}
 }
+
+/* VIEW HP */
+@media (max-width: 600px) {
+    .spek {
+        width:80px;
+    }
+
+    .spek li,
+    .label {
+        font-size: 14px;
+    }
+}
