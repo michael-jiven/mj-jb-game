@@ -1,149 +1,240 @@
 * {
-    border-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Segoe UI', -apple-system, Arial, sans-serif;
 }
 
 body {
-    color:white;
-    font-sizing:20px;
-    font-weight:bold;
-    text-decoration:none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
     animation: muncul 0.5 ease;
 }
+
 /* === BACKGROUND BERANDA ==== */
 .beranda,
 .ml,
 .ff {
-    background-image:url("img/background-logo-mj-2.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:100%;
-    background-color:black;
-    text-align:center;
+    background-image: url("img/background-logo-mj-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    text-align: center;
     animation: geser 20s ease-in-out infinite alternate;
 }
 
 /* === BANNER BERANDA === */
-.banner{
-    display:block;
-    border-radius:20px;
-    width:100%;
-    max-width:700px;
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
+.banner {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     animation: muncul 0.5s ease;
 }
 
 /* === NAVIGASI BERANDA === */
 .beranda ul {
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
 }
+
 .beranda li {
-    width:100%;
-    max-width:320px;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left:auto;
-    margin-right:auto;
-    list-style:none;
-    text-decoration:none;
-    background:rgba(255, 255, 255, 0.15);
+    width: 100%;
+    max-width: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
-    padding:10px;
-    text-align:center;
+    padding: 10px;
+    text-align: center;
     border-radius: 30px;
-    border:1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 2px 2px rbga(0, 0, 0, 0.5);
-    animation:muncul 0.5s ease;
+    animation: muncul 0.5s ease;
 }
+
 .beranda a {
-    text-decoration:none;
-    color:white;
+    text-decoration: none;
+    color: white;
 }
+
 a:hover {
-    color:darkred;
+    color: darkred;
 }
+
 nav strong {
-    display:block;
+    display: block;
 }
+
 .logo-ml,
 .logo-ff {
-    width:100%;
-    max-width:70px;
-    height:auto;
-    border-radius:20px;
-    margin-top:10px;
-    margin-left:auto;
-    margin-top:auto;
-    padding:10px;
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 10px;
 }
+
+/* === HALAMAN STOK-ML.HTML === */
+.ml h1 {
+    margin: auto;
+}
+
+.ml h4 {
+    font-size: 15px;
+    margin: auto;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: normal;
+}
+
+/* === NAV INFORMASI STOK-SAFE === */
+.link-stok-safe {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
 /* === KATALOG === */
 .katalog {
-    display:flex;
-    gap:20px;
-    overflow-x:auto;
-    padding:20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
     scroll-snap-type: x mandatory;
 }
+
 .foto-ml,
 .foto-ff {
-    display:grid;
-    width:100%;
-    max-width:320px;
-    height:auto;
-    border-radius:15px;
+    display: grid;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 15px;
 }
+
+.ml h2 {
+    font-size: 30px;
+    margin: auto;
+}
+
+.ml p {
+    font-size: 25px;
+    margin: auto;
+}
+
 .spek {
-    display:grid;
-    list-style:none;
+    display: grid;
+    list-style: none;
     border: 2px solid white;
     border-radius: 15px;
-    background:rgba(255, 255, 255, 0.15);
-    backdrop-filter:blur(10px);
-    padding:10px;
-    text-align:left;
-    border-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     width: 300px;
     flex: 0 0 300px;
+    min-height: 500px;
+    margin: auto;
 }
+
+.spek li {
+    font-size: 20px;
+    font-weight: normal;
+}
+
 /* FORMAT */
 .label {
-    font-weight:bold;
-    font-size:20px;
+    font-weight: bold;
+    font-size: 20px;
 }
+
 /* === NAV BELI BANG === */
 .link-wa {
-    font-size:25px;
-    text-decoration:none;
-    color:white;
-    background:rgba(255, 255, 255, 0.15);
-    border-shadow:0 2px 2px rgba(0, 0, 0, 0.15);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     border: 2px solid white;
-    border-radius:15px;
-    padding:5px;
-    margin-top:10px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:left;
-
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bold;
+    flex: 0;
+    margin-top: auto;
 }
+
+/* === NAV TOMBOL STOK.HTML === */
+.tombol {
+    width:100%;
+    max-width:320px;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display:block;
+    border: 1px solid white;
+    border-radius:25px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter:blur(10px);
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.15);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 /* === Animasi Transisi Banner, Navigasi Beranda === */
 @keyframes muncul {
-    from { opacity:0;}
-    to { opacity:1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes geser {
-    from { backrgound-position: 50% 0%;}
-    to { background-position: 50% 100%;}
+    from {
+        backrgound-position: 50% 0%;
+    }
+
+    to {
+        background-position: 50% 100%;
+    }
 }
 
 /* VIEW HP */
 @media (max-width: 600px) {
+    .ml h4 {
+        text-align: center;
+        text-align-last: auto;
+    }
+
     .spek {
-        width:80px;
+        flex: 0 0 80%;
     }
 
     .spek li,
