@@ -252,19 +252,69 @@ nav strong {
 }
 .banner-reff {
     width:100%;
-    max-width:300px;
+    max-width:400px;
     height:auto;
     align-items:center;
+    border-radius:15px;
 }
 .beranda-reff p {
     text-align:justify;
     font-size:15px;
+    padding:2px;
+    margin:auto;
 }
 
+.ml-reff,
+.ff-reff {
+    border-radius:20px;
+    width:80px;
+    display:block;
+    padding:10px;
+}
 .beranda-reff strong {
     font-size:19px;
 }
 
+.hangus-reff-list {
+    text-align:left;
+    padding:0px;
+    font-size:15px;
+    margin-top:2px;
+    margin-left:10px;
+    padding-left:25px;
+    margin-right:10px;
+}
+
+.hangus-reff-ff,
+.hangus-reff-ml {
+    border:1px solid white;
+    margin:10px;
+    border-radius:16px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.akun-safe {
+    border:1px solid white;
+    margin:10px;
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter:blur(10px);
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
+    padding-left:auto;
+}
+
+.akun-safe h4 {
+    margin-bottom:10px;
+    text-align:left;
+    margin-left:10px;
+}
+.akun-safe p {
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
 /* === Animasi Transisi Banner, Navigasi Beranda === */
 @keyframes muncul {
     from {
