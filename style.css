@@ -14,7 +14,8 @@ body {
 /* === BACKGROUND BERANDA ==== */
 .beranda,
 .ml,
-.ff {
+.ff, 
+.beranda-reff {
     background-image: url("img/background-logo-mj-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -36,6 +37,22 @@ body {
     animation: muncul 0.5s ease;
 }
 
+.beranda p {
+    margin:5px;
+    padding:2px;
+}
+
+.caption-1 {
+    font-size:20px;
+}
+
+.caption-2 {
+    font-size:17px;
+}
+
+.caption-3 {
+    font-size:15px;
+}
 /* === NAVIGASI BERANDA === */
 .beranda ul {
     padding: 0px;
@@ -123,7 +140,7 @@ nav strong {
 .foto-ff {
     display: grid;
     width: 100%;
-    max-width: 320px;
+    max-width: 1000px;
     height: auto;
     border-radius: 15px;
 }
@@ -139,24 +156,44 @@ nav strong {
 }
 
 .spek {
-    display: grid;
+    display: flex;
     list-style: none;
     border: 2px solid white;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     padding: 10px;
+    margin:0;
     text-align: left;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     width: 300px;
-    flex: 0 0 300px;
-    min-height: 500px;
-    margin: auto;
+    min-height: 450px;
+    overflow-y:auto;
+    flex:0 0 300px;
+    flex-direction:column;
+    align-content:start;
+    position:relative;
+    padding-bottom:70px;
 }
 
+.spek ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+    padding:0;
+    margin:0;
+}
 .spek li {
+    display:block;
+    gap:20px;
     font-size: 20px;
     font-weight: normal;
+    margin:0;
+    padding:0;
+    flex:none;
+    min-height:auto;
+    line-height: 1.5;
 }
 
 /* FORMAT */
@@ -172,7 +209,7 @@ nav strong {
     color: white;
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 15px;
     padding: 5px;
     margin-top: auto;
@@ -181,7 +218,11 @@ nav strong {
     text-align: left;
     font-weight: bold;
     flex: 0;
-    margin-top: auto;
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    margin-bottom: auto;
 }
 
 /* === NAV TOMBOL STOK.HTML === */
@@ -203,6 +244,25 @@ nav strong {
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.15);
     margin-top:10px;
     margin-bottom:10px;
+}
+
+/* === BERANDA SISTEM REFF === */
+.beranda-reff {
+    background-color:black;
+}
+.banner-reff {
+    width:100%;
+    max-width:300px;
+    height:auto;
+    align-items:center;
+}
+.beranda-reff p {
+    text-align:justify;
+    font-size:15px;
+}
+
+.beranda-reff strong {
+    font-size:19px;
 }
 
 /* === Animasi Transisi Banner, Navigasi Beranda === */
@@ -232,13 +292,8 @@ nav strong {
         text-align: center;
         text-align-last: auto;
     }
-
-    .spek {
-        flex: 0 0 80%;
-    }
-
     .spek li,
     .label {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
