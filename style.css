@@ -15,7 +15,8 @@ body {
 .beranda,
 .ml,
 .ff, 
-.beranda-reff {
+.beranda-reff,
+.beranda-upah {
     background-image: url("img/background-logo-mj-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -315,6 +316,28 @@ nav strong {
     margin-left:10px;
     margin-bottom:10px;
 }
+/* === SISTEM UPAH === */
+.beranda-upah {
+    background-color:black;
+}
+
+.banner-upah {
+    width:100%;
+    max-width:400px;
+    height:auto;
+    align-items:center;
+    border-radius:15px;
+} 
+
+.sistem-upah {
+    display:block;
+    width:100%;
+    max-width:300px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 /* === Animasi Transisi Banner, Navigasi Beranda === */
 @keyframes muncul {
     from {
@@ -345,5 +368,8 @@ nav strong {
     .spek li,
     .label {
         font-size: 20px;
+    }
+    .sistem-upah {
+        max-width:95%;
     }
 }
