@@ -11,19 +11,21 @@ body {
     animation: muncul 0.5 ease;
 }
 
-/* === BACKGROUND BERANDA ==== */
+/* === BACKGROUND HALAMAN ==== */
 .beranda,
 .ml,
 .ff, 
 .beranda-reff,
-.beranda-upah {
-    background-image: url("img/background-logo-mj-2.jpg");
+.beranda-upah, 
+.beranda-tur, 
+.beranda-update {
+    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    background-color: black;
+    background-size: cover;
     text-align: center;
-    animation: geser 20s ease-in-out infinite alternate;
+    background-attachment: fixed;
+    animation: muncul 0.5 ease;
 }
 
 /* === BANNER BERANDA === */
@@ -69,13 +71,13 @@ body {
     margin-right: auto;
     list-style: none;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(12px);
     padding: 10px;
     text-align: center;
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.5);
+    border: 1px solid white;
+    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.10);
     animation: muncul 0.5s ease;
 }
 
@@ -162,7 +164,7 @@ nav strong {
     border: 2px solid white;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     padding: 10px;
     margin:0;
     text-align: left;
@@ -241,7 +243,7 @@ nav strong {
     border: 1px solid white;
     border-radius:25px;
     background: rgba(255, 255, 255, 0.15);
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(15px);
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.15);
     margin-top:10px;
     margin-bottom:10px;
@@ -292,7 +294,7 @@ nav strong {
     margin:10px;
     border-radius:16px;
     background:rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -301,12 +303,13 @@ nav strong {
     margin:10px;
     border-radius:15px;
     background:rgba(255, 255, 255, 0.15);
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(15px);
     box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
     padding-left:auto;
 }
 
 .akun-safe h4 {
+    margin-top:5px;
     margin-bottom:10px;
     text-align:left;
     margin-left:10px;
@@ -337,13 +340,17 @@ nav strong {
     margin-left:auto;
     margin-right:auto;
     padding:20px;
-    border-radius:15px;
+    border-radius:40px;
     margin:auto;
 }
 
-/* === TURNAMEN === */
-.beranda-tur {
-    background-color:black;
+/* === FOOTER === */
+footer {
+    text-align:center;
+}
+
+.cast {
+    text-align:center;
 }
 /* === Animasi Transisi Banner, Navigasi Beranda === */
 @keyframes muncul {
