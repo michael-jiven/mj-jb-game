@@ -136,9 +136,17 @@ nav strong {
     gap: 20px;
     overflow-x: auto;
     padding: 20px;
+    justify-content: flex-start;
     scroll-snap-type: x mandatory;
 }
 
+.katalog article {
+    flex:0 0 310px;
+}
+
+[hidden] {
+    display:none;
+}
 .foto-ml,
 .foto-ff {
     display: grid;
