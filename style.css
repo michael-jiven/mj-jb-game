@@ -147,6 +147,10 @@ nav strong {
 [hidden] {
     display:none;
 }
+
+article:target {
+    outline:3px solid blue;
+}
 .foto-ml,
 .foto-ff {
     display: grid;
