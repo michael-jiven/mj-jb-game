@@ -196,9 +196,6 @@ nav strong {
     display:none;
 }
 
-article:target {
-    outline:3px solid blue;
-}
 .foto-ml,
 .foto-ff {
     display: grid;
@@ -460,7 +457,13 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .jalan {
-        animation:none;
+    .jalan { animation:none; }
+    .jlaan .salinan { display:none; }
+    .slider { overflow-x:auto; }
+}
+
+@media (hover: hover) {
+    .jalan:hover {
+        animation-play-state: paused;
     }
 }
