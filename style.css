@@ -457,8 +457,6 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .jalan { animation:none; }
-    .jlaan .salinan { display:none; }
     .slider { overflow-x:auto; }
 }
 
