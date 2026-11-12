@@ -142,7 +142,8 @@ nav strong {
 }
 
 .logo-ml,
-.logo-ff {
+.logo-ff,
+.coming-soon {
     width: 100%;
     max-width: 70px;
     height: auto;
