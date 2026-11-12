@@ -8,7 +8,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    animation: muncul 0.5 ease;
+    animation: muncul 0.5s ease;
 }
 
 /* === BACKGROUND HALAMAN ==== */
@@ -28,6 +28,15 @@ body {
     animation: muncul 0.5 ease;
 }
 
+.beranda::before {
+    content: "";
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    background-image:url("img/background.jpg");
+    background-size:cover;
+    background-position:center;
+}
 /* === BANNER BERANDA === */
 .banner {
     display: block;
@@ -56,9 +65,47 @@ body {
 .caption-3 {
     font-size:15px;
 }
+
+/* === SLIDER BERANDA === */
+.slider {
+    overflow:hidden;
+    background:transparent;
+    padding:10px;
+}
+
+.jalan {
+    display:flex;
+    gap:5px;
+    width:max-content;
+    background: transparent;
+    animation: geser-katalog 20s linear infinite;
+    border:1px solid white;
+    border-radius:15px;
+    padding-top:10px;
+    padding-bottom:12px;
+    background:rgba(255, 255, 255, 0.10);
+}
+
+.jalan a {
+    flex:none;
+    margin-right:15px;
+    background:transparent;
+}
+
+.jalan:hover {
+    animation-play-state:paused;
+}
+
+.katalog-jalan {
+    display:block;
+    height:auto;
+    border-radius:15px;
+    width:200px;
+}
+
 /* === NAVIGASI BERANDA === */
 .beranda ul {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -379,7 +426,7 @@ footer {
 .cast {
     text-align:center;
 }
-/* === Animasi Transisi Banner, Navigasi Beranda === */
+/* === Animasi Beranda === */
 @keyframes muncul {
     from {
         opacity: 0;
@@ -390,13 +437,12 @@ footer {
     }
 }
 
-@keyframes geser {
+@keyframes geser-katalog {
     from {
-        backrgound-position: 50% 0%;
+        transform:translateX(-50%);
     }
-
     to {
-        background-position: 50% 100%;
+        transform: translateX(0);
     }
 }
 
@@ -409,5 +455,11 @@ footer {
     .spek li,
     .label {
         font-size: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .jalan {
+        animation:none;
     }
 }
