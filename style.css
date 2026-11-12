@@ -75,7 +75,6 @@ body {
 
 .jalan {
     display:flex;
-    gap:5px;
     width:max-content;
     background: transparent;
     animation: geser-katalog 20s linear infinite;
@@ -457,6 +456,8 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .jalan { animation : none; }
+    .jalan .salinan { display: none; }
     .slider { overflow-x:auto; }
 }
 
