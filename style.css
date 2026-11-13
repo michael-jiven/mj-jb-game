@@ -379,6 +379,7 @@ nav strong {
     text-align: left;
     font-size:15px;
     margin-top:1px;
+    margin-left:1px;
 }
 .akun-safe h4 {
     margin-top:5px;
@@ -390,6 +391,57 @@ nav strong {
     margin-right:10px;
     margin-left:10px;
     margin-bottom:10px;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.klaim-garansi {
+    border:1px solid white;
+    margin:10px;
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter:blur(15px);
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
+    text-align:left;
+    font-size:18px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.klaim-garansi h4 {
+    margin-top:5px;
+    text-align:left;
+    margin-left:10px;
+    font-size:20px;
+    margin-bottom:14px;
+}
+
+.klaim-garansi a {
+    text-decoration: none;
+    color:white
+}
+.peringatan {
+    border:1px solid aliceblue;
+    border-radius:15px;
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    color:red;
+    box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.peringatan p {
+    font-size:20px;
+    text-align:center;
+}
+
+.peringatan h4 {
+    font-size:30px;
+    margin-bottom:4px;
+    margin-top:4px;
+    font-weight:bold;
 }
 /* === SISTEM UPAH === */
 .beranda-upah {
