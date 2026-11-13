@@ -59,11 +59,15 @@ body {
 }
 
 .caption-2 {
-    font-size:17px;
+    font-size:18px;
 }
 
 .caption-3 {
-    font-size:15px;
+    font-size:16px;
+}
+
+.caption-4 {
+    font-size:14px;
 }
 
 /* === SLIDER BERANDA === */
@@ -317,9 +321,6 @@ nav strong {
 }
 
 /* === BERANDA SISTEM REFF === */
-.beranda-reff {
-    background-color:black;
-}
 .banner-reff {
     width:100%;
     max-width:400px;
@@ -334,6 +335,22 @@ nav strong {
     margin:auto;
 }
 
+.masa-reff {
+    border:1px solid aliceblue;
+    border-radius:15px;
+    padding:10px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.masa-reff h4 {
+    text-align:left;
+    margin-top:10px;
+    margin-bottom:5px;
+}
 .ml-reff,
 .ff-reff {
     border-radius:20px;
@@ -341,10 +358,18 @@ nav strong {
     display:block;
     padding:10px;
 }
-.beranda-reff strong {
-    font-size:19px;
+
+.hangus-reff-ml strong {
+    padding:10px;
 }
 
+.hangus-reff-ml h4 {
+    margin-top:10px;
+    text-align:left;
+    margin-bottom:10px;
+    margin-left: 10px;
+
+}
 .hangus-reff-list {
     text-align:left;
     padding:0px;
@@ -382,7 +407,7 @@ nav strong {
     margin-left:1px;
 }
 .akun-safe h4 {
-    margin-top:5px;
+    margin-top:10px;
     margin-bottom:10px;
     text-align:left;
     margin-left:10px;
@@ -443,6 +468,7 @@ nav strong {
     margin-top:4px;
     font-weight:bold;
 }
+
 /* === SISTEM UPAH === */
 .beranda-upah {
     background-color:black;
