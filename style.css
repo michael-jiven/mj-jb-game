@@ -495,10 +495,10 @@ footer {
     font-size:15px;
 }
 
-.ml .statistik-review .data,
-.ml .statistik-stok data, 
-.ff .statisktik-stok data, 
-.ff .statistik-review data {
+.ml .statistik-review strong,
+.ml .statistik-stok strong, 
+.ff .statisktik-stok strong, 
+.ff .statistik-review strong {
     font-size:25px;
 }
 
@@ -508,18 +508,19 @@ footer {
     text-align:center;
 }
 
-.beranda-reff .statistik-review .data,
-.beranda-reff .statistik-stok .data {
+.beranda-reff .statistik-review strong,
+.beranda-reff .statistik-stok strong {
     font-size:25px;
     text-align:center;
 }
-.data {
+
+.statistik-review strong, 
+.statistik-stok strong {
     margin-top:7px;
     font-weight: bold;
     font-size:25px;
     color: springgreen;
     text-align:center;
-
 }
 /* === Animasi Beranda === */
 @keyframes muncul {
