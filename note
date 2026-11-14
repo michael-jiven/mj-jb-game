@@ -2,6 +2,26 @@ PEDOMAN :
 1. Setiap gambar katalog kartu akun maksimal size 500kb
 
 STATUS : 
-<li><span class="label" id="status-ready">❌ STATUS : Ready </span></li>
+<li><span class="label" id="status-ready">✅ STATUS : Ready </span></li>
 <li><span class="label" id="status-sold">❌ STATUS : Sold </span></li>
 <li><span class="label" id="status-book">⏳ STATUS : Booking </span></li>
+
+<li><span class="label" id="status-ready">✅ STATUS : Ready </span></li>
+                <li><span class="label">📱 LOG : </span>Bind</li>
+                <li><span class="label">💯 DURASI SAFE : </span>Sejak 5 Juli 2026/li>
+                <li><span class="label">🔐 BIND/REBIND : </span>Bind</li>
+                <li><span class="label">🎨 TOTAL VAULT : </span>200</li>
+                <li><span class="label">🙂‍↕️ SKIN SG2 : </span>Reaper, Parrot</li>
+                <li><span class="label">🛡️ VAULT SENJATA : </span>Jibun</li>
+                <li><span class="label">🎭 TOTAL EVO : </span>Ak47 (lvl5), Scar(lvl5), Mp40(lvl4)</li>
+                <li><span class="label">📝 DESKRIPSI : </span>Isian Cocok dah</li>
+
+                <li><span class="label" id="status-ready">✅ STATUS : Ready </span></li>
+                <li><span class="label">📱 LOG : </span>Bind</li>
+                <li><span class="label">💯 DURASI SAFE : </span>Sejak 5 Juli 2026</li>
+                <li><span class="label">🔐 BIND/REBIND : </span>Bind</li>
+                <li><span class="label">🎨 TOTAL VAULT : </span>285</li>
+                <li><span class="label">🙂‍↕️ SKIN SG2 : </span>Reaper, Evo</li>
+                <li><span class="label">🛡️ VAULT SENJATA : </span>Jibun</li>
+                <li><span class="label">🎭 TOTAL EVO : </span>139</li>
+                <li><span class="label">📝 DESKRIPSI : </span>Ganteng Pisan</li>

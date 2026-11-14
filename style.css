@@ -26,7 +26,7 @@ body {
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
-    animation: muncul 0.5 ease;
+    animation: muncul 0.5s ease;
 }
 
 .beranda::before {
@@ -129,7 +129,7 @@ body {
     text-align: center;
     border-radius: 30px;
     border: 1px solid white;
-    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.20);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.20);
     animation: muncul 0.5s ease;
 }
 
@@ -210,9 +210,6 @@ a:hover {
     font-size:30px;
     margin:auto;
 }
-[hidden] {
-    display:none;
-}
 
 .foto-ml,
 .foto-ff {
@@ -259,7 +256,7 @@ a:hover {
     flex-direction:column;
     align-content:start;
     position:relative;
-    padding-bottom:70px;
+    padding-bottom:10px;
 }
 
 #status-ready {
@@ -319,7 +316,7 @@ a:hover {
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:8px;
-    margin-top:12px;
+    margin-top:auto;
 }
 
 .link-wa, 
@@ -332,6 +329,7 @@ a:hover {
     text-decoration: none;
     color:aliceblue;
     backdrop-filter:blur(15px);
+    margin-bottom:10px;
 }
 
 .link-wa {
