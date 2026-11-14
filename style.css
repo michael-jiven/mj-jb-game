@@ -140,21 +140,25 @@ a:hover {
     color: #1E90FF;
 }
 
-nav strong {
-    display: block;
+.pilih-game {
+    display:flex;
+    justify-content: center;
+    gap:15px;
 }
 
-.logo-ml,
-.logo-ff {
+.tombol-game {
     width: 100%;
-    max-width: 70px;
+    max-width: 100px;
     height: auto;
     border-radius: 30px;
-    margin-top: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    border:1px solid black;
+    margin-top: 10px;
+    margin-bottom:5px;
+    font-size:35px;
+    border:1px solid aliceblue;
     box-shadow: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(40px);
+    background:rgba(255, 255, 255, 0.15);
+
 }
 
 /* === HALAMAN STOK-ML.HTML === */
