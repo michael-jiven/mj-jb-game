@@ -18,7 +18,8 @@ body {
 .beranda-reff,
 .beranda-upah, 
 .beranda-tur, 
-.beranda-update {
+.beranda-update, 
+.beranda-testi {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -110,6 +111,7 @@ body {
 .beranda ul {
     padding: 5px;
     margin: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15);
 }
 
 .beranda li {
@@ -127,7 +129,7 @@ body {
     text-align: center;
     border-radius: 30px;
     border: 1px solid white;
-    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.10);
+    box-shadow: 0 2px 2px rbga(0, 0, 0, 0.20);
     animation: muncul 0.5s ease;
 }
 
@@ -247,12 +249,12 @@ a:hover {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
     padding: 10px;
-    margin:0;
+    margin-top:20px;
     text-align: left;
+    margin-bottom:5px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-    width: 300px;
-    min-height: 450px;
-    overflow-y:auto;
+    width: 310px;
+    height: 590px;
     flex:0 0 300px;
     flex-direction:column;
     align-content:start;
@@ -260,13 +262,44 @@ a:hover {
     padding-bottom:70px;
 }
 
+#status-ready {
+    color:greenyellow;
+    border:1px solid greenyellow;
+    border-radius: 15px;
+    width:100%;
+    padding:5px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    margin-bottom:10px;
+}
+
+#status-sold {
+    color:red;
+    border:1px solid rgb(255, 47, 47);
+    border-radius: 15px;
+    width:100%;
+    padding:5px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    margin-bottom:10px;
+}
+
+#status-book {
+    color:cyan;
+    border:1px solid rgb(47, 255, 252);
+    border-radius: 15px;
+    width:100%;
+    padding:5px;
+    background:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    margin-bottom:10px;
+}
 .spek ul {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     gap:20px;
     padding:0;
-    margin:0;
 }
 .spek li {
     display:block;
@@ -278,31 +311,44 @@ a:hover {
     flex:none;
     min-height:auto;
     line-height: 1.5;
+    margin-top:10px;
 }
 
 /* === NAV BELI BANG === */
-.link-wa {
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    background: rgba(255, 255, 255, 0.70);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 5px;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    font-weight: bold;
-    flex: 0;
-    position:absolute;
-    bottom:15px;
-    left:50%;
-    transform:translateX(-50%);
-    margin-top: 10px;
+.link {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:8px;
+    margin-top:12px;
 }
 
+.link-wa, 
+.link-fs, 
+.link-dp,
+.link-book {
+    border:1px solid aliceblue;
+    border-radius: 15px;
+    padding:10px;
+    text-decoration: none;
+    color:aliceblue;
+    backdrop-filter:blur(15px);
+}
+
+.link-wa {
+    background:rgba(19, 203, 188, 0.358);
+}
+
+.link-fs {
+    background:rgba(22, 132, 205, 0.491);
+}
+
+.link-dp {
+    background:rgba(22, 49, 205, 0.491);
+}
+
+.link-book {
+    background:rgba(102, 19, 203, 0.358)
+}
 /* === NAV TOMBOL STOK.HTML === */
 .tombol {
     width:100%;
@@ -447,7 +493,7 @@ a:hover {
 
 .klaim-garansi a {
     text-decoration: none;
-    color:white
+    color:white;
 }
 .peringatan {
     border:1px solid aliceblue;
@@ -473,6 +519,63 @@ a:hover {
     font-weight:bold;
 }
 
+/* === TESTI.HTML === */
+.beranda-testi {
+    display:block;
+    justify-content: center;
+    border-radius:15px;
+    padding:10px;
+    width:450px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.pic-testi {
+    display:block;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    margin-right: auto;
+    margin-left:auto;
+    
+}
+
+.testi-1, 
+.testi-2, 
+.testi-3, 
+.testi-4, 
+.testi-5 {
+    border:1px solid aliceblue;
+    border-radius:15px;
+    margin-top:15px;
+    background:rgba(255, 255, 255, 0.15);
+    width:75%;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    backdrop-filter: blur(15px);
+}
+.testimoni p {
+    margin-bottom:4px;
+    margin-top:1px;
+}
+
+.beranda-testi h3 {
+    margin-top:7px;
+    margin-bottom:1px;
+}
+.beranda-testi a {
+    color: aliceblue;
+}
+
+.beranda-testi h1 {
+    margin-bottom:1px;
+}
+
+.beranda-testi a:hover {
+    color:#1E90FF
+}
 /* === SISTEM UPAH === */
 .beranda-upah {
     background-color:black;

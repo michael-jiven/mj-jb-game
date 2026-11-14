@@ -1,2 +1,7 @@
 PEDOMAN :
 1. Setiap gambar katalog kartu akun maksimal size 500kb
+
+STATUS : 
+<li><span class="label" id="status-ready">❌ STATUS : Ready </span></li>
+<li><span class="label" id="status-sold">❌ STATUS : Sold </span></li>
+<li><span class="label" id="status-book">⏳ STATUS : Booking </span></li>
