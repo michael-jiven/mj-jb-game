@@ -76,6 +76,8 @@ body {
     overflow:hidden;
     background:transparent;
     padding:10px;
+    overflow-x:auto;
+    
 }
 
 .jalan {
