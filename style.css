@@ -73,7 +73,6 @@ body {
 
 /* === SLIDER BERANDA === */
 .slider {
-    overflow:hidden;
     background:transparent;
     padding:10px;
     overflow-x:auto;
@@ -84,7 +83,7 @@ body {
     display:flex;
     width:max-content;
     background: transparent;
-    animation: geser-katalog 5s linear infinite;
+    animation: geser-katalog 40s linear infinite;
     border:1px solid white;
     border-radius:15px;
     padding-top:10px;
@@ -128,6 +127,17 @@ a:hover {
     color: #1E90FF;
 }
 
+.stok {
+    border:1px solid aliceblue;
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.15);
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px;
+    padding-top:10px;
+    backdrop-filter: blur(15px);
+}
 .pilih-game {
     display:flex;
     justify-content: center;
@@ -172,6 +182,7 @@ a:hover {
     flex:none;
     object-fit: contain;
 }
+
 /* === HALAMAN STOK-ML.HTML === */
 .ml h1 {
     margin: auto;
@@ -727,7 +738,7 @@ footer {
 
 @keyframes geser-katalog {
     from {
-        transform:translateX(-20%);
+        transform:translateX(-50%);
     }
     to {
         transform: translateX(0);
@@ -767,7 +778,6 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .jalan { animation : none; }
+    .jalan { animation : 120s; }
     .jalan .salinan { display: none; }
-    .slider { overflow-x:auto; }
 }
