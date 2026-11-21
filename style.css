@@ -587,6 +587,7 @@ a:hover {
     
 }
 
+.testi-0,
 .testi-1, 
 .testi-2, 
 .testi-3, 
@@ -607,6 +608,15 @@ a:hover {
     margin-top:1px;
 }
 
+.testi-0 u,
+.testi-1 u, 
+.testi-2 u, 
+.testi-3 u, 
+.testi-4 u, 
+.testi-5 u {
+    text-decoration: none;
+    color:rgb(0, 170, 255);
+}
 .beranda-testi h3 {
     margin-top:7px;
     margin-bottom:1px;
