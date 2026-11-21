@@ -57,6 +57,7 @@ body {
 
 .caption-1 {
     font-size:20px;
+    color:rgb(48, 203, 255)
 }
 
 .caption-2 {
@@ -69,6 +70,7 @@ body {
 
 .caption-4 {
     font-size:14px;
+    color:red;
 }
 
 /* === SLIDER BERANDA === */
@@ -149,14 +151,13 @@ a:hover {
     max-width: 100px;
     height: auto;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom:5px;
     font-size:25px;
     padding:5px;
     border:1px solid aliceblue;
     box-shadow: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(20px);
-    background:rgba(255, 255, 255, 0.15);
+    background:rgba(255, 255, 255, 0.09);
 } 
 
 .menu-item {
@@ -173,6 +174,26 @@ a:hover {
     justify-content: center;
 }
 
+.beranda-update .menu-item,
+.beranda-reff .menu-item,
+.beranda-testi .menu-item,
+.beranda-tur .menu-item,
+.beranda-upah .menu-item, 
+.ml .menu-item, 
+.ff .menu-item {
+    color:aliceblue;
+}
+
+.beranda-update .menu-item:hover,
+.beranda-reff .menu-item:hover,
+.beranda-testi .menu-item:hover,
+.beranda-tur .menu-item:hover,
+.beranda-upah .menu-item:hover, 
+.ml .menu-item:hover, 
+.ff .menu-item:hover {
+    color:#1E90FF;
+}
+
 .menu-item a {
     flex:1;
 }
@@ -183,6 +204,13 @@ a:hover {
     object-fit: contain;
 }
 
+.logo {
+    width:50px;
+    height:45px;
+    flex:none;
+    object-fit:contain;
+    margin:0;
+}
 /* === HALAMAN STOK-ML.HTML === */
 .ml h1 {
     margin: auto;
