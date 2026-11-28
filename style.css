@@ -78,7 +78,17 @@ body {
     background:transparent;
     padding:10px;
     overflow-x:auto;
-    
+    scroll-snap-type: x proximity;
+    -ms-overflow-style:none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider::-webkit-scrollbar {
+    display:none;
+}
+
+.slider > * {
+    scroll-snap-align: start;
 }
 
 .jalan {
